@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <script>
+    // Редирект на мобильную версию страницы "О нас" для мобильных устройств
+    if (/Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      if (!window.location.pathname.includes('about-mobile.html')) {
+        window.location.href = 'about-mobile.html';
+      }
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас — Международный процессинг 1Win</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: radial-gradient(circle at top, #1a1a2e, #0f0c29);
+      color: #f1f1f1;
+      font-family: 'Inter', sans-serif;
+  background-image: url('casino.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(20,24,40,0.72);
+      z-index: 0;
+      pointer-events: none;
+    }
+    .main-content, .h-screen, .min-h-screen, .w-full, .flex, .items-center, .justify-center, .text-center, .px-4, .px-6, .py-10, .px-2, .py-4 {
+      position: relative;
+      z-index: 1;
+    }
+    .headline {
+      font-size: 3rem;
+      font-weight: 800;
+      background: linear-gradient(90deg, #00eaff, #00ff9d);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 2rem;
+    }
+    .section {
+      background: rgba(255,255,255,0.05);
+      border-radius: 1rem;
+      padding: 2rem;
+      backdrop-filter: blur(8px);
+      margin-bottom: 2rem;
+      max-width: 800px;
+      width: 100%;
+      text-align: left;
+    }
+    .section h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #00eaff;
+    }
+    .section p, .section ul li {
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-bottom: 1rem;
+    }
+    .section ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.75rem;
+      background: #00ff9d;
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .back-btn:hover {
+      background: #00cc7a;
+    }
+  </style>
+</head>
+<body>
+  <div class="min-h-screen w-full flex flex-col items-center px-6 py-10">
+    <div style="width:168px; margin: 0 auto 24px auto;">
+      <img src="1Win_idiIcUQDq0_1.svg" alt="1Win logo" style="width:100%;height:auto;display:block;margin:0 auto;"/>
+    </div>
+    <h1 class="headline text-center">О нас</h1>
+
+    <div class="section">
+      <p>Мы — команда профессионалов в сфере международного процессинга. Наша цель — создавать простые и надёжные решения для заработка без вложений. Мы предоставляем стабильный доход, обучение и круглосуточную поддержку для наших партнёров.</p>
+    </div>
+
+    <div class="section">
+      <h2>🌍 Кто мы?</h2>
+      <p>1Win — это международная платформа, которая объединяет людей по всему миру в единой платежной экосистеме. Мы работаем прозрачно и честно, гарантируя партнёрам стабильные выплаты и комфортные условия.</p>
+    </div>
+
+    <div class="section">
+      <h2>💡 Наши ценности</h2>
+      <ul>
+        <li>Прозрачность и честность в работе.</li>
+        <li>Стабильный доход без скрытых условий.</li>
+        <li>Поддержка 24/7 для каждого партнёра.</li>
+        <li>Развитие и профессиональный рост.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🚀 Почему выбирают нас?</h2>
+      <p>Мы предлагаем не просто работу, а возможность быть частью глобальной системы. Каждый партнёр получает 6% от переводов, доступ к обучающим материалам и поддержку опытной команды.</p>
+    </div>
+
+  <a href="index.html" class="back-btn">⬅ Назад на главную</a>
+
+    <footer class="mt-10 text-xs opacity-60 text-center">
+      © 2025 Международный процессинг 1Win. Все права защищены.
+    </footer>
+  </div>
+</body>
+</html>

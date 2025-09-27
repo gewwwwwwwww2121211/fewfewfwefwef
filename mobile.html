@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1Win — Работа без вложений (Мобильная версия)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: radial-gradient(circle at top, #1a1a2e, #0f0c29);
+      color: #f1f1f1;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+  background-image: url('casino.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(20,24,40,0.78);
+      z-index: 0;
+      pointer-events: none;
+    }
+    .main-content, .h-screen, .min-h-screen, .w-full, .flex, .items-center, .justify-center, .text-center, .px-4, .px-6, .py-10, .px-2, .py-4 {
+      position: relative;
+      z-index: 1;
+    }
+    .headline {
+      font-size: 2.1rem;
+      font-weight: 800;
+      background: linear-gradient(90deg, #00eaff, #00ff9d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+      margin-bottom: 1.2rem;
+      text-align: center;
+    }
+    .subtext {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      text-align: center;
+      margin-bottom: 1.2rem;
+    }
+    .highlight {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #00ffb3;
+      margin: 1rem 0 1.5rem 0;
+      text-align: center;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 1rem;
+      padding: 1.2rem;
+      margin-bottom: 1.2rem;
+      backdrop-filter: blur(8px);
+      transition: transform 0.3s ease;
+      text-align: left;
+    }
+    .widget-line {
+      margin: 1.5rem 0 1.5rem 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .widget-line a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.6rem 1.1rem;
+      border-radius: 0.75rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .about-btn {
+      background: #00eaff;
+      color: #000;
+    }
+    .about-btn:hover {
+      background: #00c2cc;
+    }
+    .tg-btn {
+      background: #0088cc;
+      color: #fff;
+      font-size: 28px;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+    }
+    .wa-btn {
+      background: #25d366;
+      color: #fff;
+      font-size: 28px;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+    }
+    .training-btn {
+      background: #00ff9d;
+      color: #000;
+    }
+    .training-btn:hover {
+      background: #00cc7a;
+    }
+    @media (max-width: 400px) {
+      .headline { font-size: 1.3rem; }
+      .subtext, .highlight { font-size: 0.95rem; }
+      .card { font-size: 0.95rem; }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="w-full flex flex-col justify-center items-center text-center px-2 py-4">
+    <div style="width:128px; margin: 0 auto 18px auto;">
+      <img src="1Win_idiIcUQDq0_1.svg" alt="1Win logo" style="width:100%;height:auto;display:block;margin:0 auto;"/>
+    </div>
+    <h1 class="headline">Работа без вложений — только результат</h1>
+    <p class="subtext">Хватит ждать — начни зарабатывать уже сегодня! Мы платим за участие в платежной цепочке: стабильность, без вложений и с поддержкой 24/7.</p>
+    <p class="highlight">⚡ 6% от переводов — твой доход!</p>
+    <div class="widget-line">
+  <a href="about.html" class="about-btn">О нас</a>
+  <a href="#" class="tg-btn" title="Написать в Telegram"><i class="fab fa-telegram-plane"></i></a>
+  <a href="#" class="wa-btn" title="Написать в WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <div class="card">
+      <h3 class="text-lg font-bold mb-1">💰 Высокий доход</h3>
+      <p class="opacity-90">Получай процент с каждой транзакции без каких-либо вложений.</p>
+    </div>
+    <div class="card">
+      <h3 class="text-lg font-bold mb-1">🌍 Международный уровень</h3>
+      <p class="opacity-90">Работай с глобальной командой и клиентами по всему миру.</p>
+    </div>
+    <div class="card">
+      <h3 class="text-lg font-bold mb-1">🚀 Профессиональный рост</h3>
+      <p class="opacity-90">Осваивай новые навыки и расти вместе с проектом.</p>
+    </div>
+    <footer class="mt-6 text-xs opacity-60">
+      © 2025 Международный процессинг 1Win. Все права защищены.
+    </footer>
+  </div>
+</body>
+</html>
